@@ -1,0 +1,13 @@
+<h1>My Games</h1>
+<div class="flex flex-row p-4 justify-between">
+  <mat-card *ngFor="let g of games" class="m-2">
+      <mat-card-title-group>
+        <mat-card-title>{{g.name}}</mat-card-title>
+        <mat-card-subtitle>{{g.hours}} Hours</mat-card-subtitle>
+        <img mat-card-lg-image [src]="g.url" class="rounded-md mb-4">
+      </mat-card-title-group>
+      <mat-card-content>
+        <mat-progress-bar class="achievements" mode="determinate" value={{g.achievements}}></mat-progress-bar>
+      </mat-card-content>
+  </mat-card>
+</div>

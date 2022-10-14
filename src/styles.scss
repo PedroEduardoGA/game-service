@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html,
+body {
+    height: 100%;
+    background-color: rgb(34, 34, 34);
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-progress-bar {
+    &.achievements {
+        // Parte da barra que está preenchida
+        .mat-progress-bar-fill::after {
+            background-color: green;
+        }
+
+        // Parte da barra que não está preenchida
+        // .mat-progress-bar-buffer {}
+    }
+}

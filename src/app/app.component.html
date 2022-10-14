@@ -1,0 +1,19 @@
+<nav class="flex flex-row justify-between w-full">
+  <button mat-button (click)="router.navigate(['/profile'])">
+   <em class="bi bi-person-circle"></em>
+  </button>
+  <div>
+    <button mat-button (click)="router.navigate(['/shop'])">
+      <em class="bi bi-cart-fill"></em>
+    </button>
+    <button mat-button (click)="router.navigate(['/my-games'])">
+      <em class="bi bi-controller"></em>
+    </button>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+
+<footer>
+  © Copyright {{getYearFooter()}}
+  <a target="_blank" class="text-light" href="https://www.instagram.com/pedro.garbossa/">Pedro Garbossa</a>
+</footer>
