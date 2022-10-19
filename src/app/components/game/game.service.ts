@@ -10,7 +10,7 @@ export class GameService {
 
   constructor(private http: HttpClient ) { }
 
-  getMyGames():Observable<{ games: Game[] }>{
-    return this.http.get<{ games: Game[] }>("assets/database/games.json");
+  getMyGames():Observable<Game[]>{
+    return this.http.get<Game[]>("assets/database/games.json");
   }
 }

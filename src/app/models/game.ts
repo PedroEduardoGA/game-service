@@ -1,7 +1,7 @@
 export class Game {
-    id?: number;
-    name?: string;
-    hours?: number;
-    achievements?: number;
-    url?: string;
+    id: number = 0;
+    name: string = '';
+    hours: number = 0;
+    achievements: number = 0;
+    url: string = '';
 }

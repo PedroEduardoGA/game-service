@@ -1,1 +1,18 @@
-<p>shop works!</p>
+<h1>Shop</h1>
+
+<div class="flex flex-col justify-between">
+    <mat-card *ngFor="let s of shopList" class="m-2">
+        <img mat-card-avatar [src]="s.url" class="rounded-md mb-2">
+        <div style="margin: 1rem;">
+            <mat-card-title >{{s.name}}</mat-card-title>
+            <mat-card-content [ngStyle]="{'color': s.sale ? '#44C408' : '#ffffff'}">R$ {{s.price}}</mat-card-content>
+            <mat-card-actions><button mat-button><em class="bi bi-bag-plus-fill"></em></button></mat-card-actions>
+        </div>
+        
+    </mat-card>
+    <mat-paginator [length]="shopList.length"
+              [pageSize]="10"
+              [pageSizeOptions]="[5, 10]"
+              aria-label="Select page">
+    </mat-paginator>
+</div>
