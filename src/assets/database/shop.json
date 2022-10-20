@@ -4,7 +4,7 @@
       "name": "Rocket League",
       "price": 25.99,
       "sale": true,
-      "url": "./assets/imagens/gtav-logo.jpg"
+      "url": "./assets/imagens/rocketLeague-logo.jpg"
     },
     {
       "id": 2,
@@ -18,34 +18,34 @@
       "name": "Counter Strike Global Offensive",
       "price": 0.00,
       "sale": false,
-      "url": "./assets/imagens/gtav-logo.jpg"
+      "url": "./assets/imagens/cs-logo.jpg"
     },
     {
       "id": 4,
       "name": "Unturned",
       "price": 8.99,
       "sale": true,
-      "url": "./assets/imagens/gtav-logo.jpg"
+      "url": "./assets/imagens/unturned-logo.png"
     },
     {
       "id": 5,
       "name": "Battlefield 3",
       "price": 55.34,
       "sale": true,
-      "url": "/assets/imagens/gtav-logo.jpg"
+      "url": "/assets/imagens/bf3-logo.jpg"
     },
     {
       "id": 6,
       "name": "The Sims 3",
       "price": 27.90,
       "sale": false,
-      "url": "/assets/imagens/gtav-logo.jpg"
+      "url": "/assets/imagens/theSims-logo.jpg"
     },
     {
       "id": 7,
-      "name": "MadMax",
+      "name": "Forza Horizon",
       "price": 15.46,
       "sale": true,
-      "url": "/assets/imagens/gtav-logo.jpg"
+      "url": "/assets/imagens/forza-logo.jpg"
     }
   ]
